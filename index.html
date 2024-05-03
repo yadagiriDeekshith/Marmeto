@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Display</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-BFQm6IkgPjEgBKDWoolrARO5+omhsa7Xjq8F8hHb+zhNdsvOz1r6qQn2t9dztnT3" crossorigin="anonymous">
+
+</head>
+<body>
+  <div class="container">
+    <h1>SELECT YOUR CHOICE</h1>
+    <div  class="tabs">
+        <div class="active"></div>
+      <button id="menBtn" class="active" onclick="showProducts('Men')">Men</button>
+      <button id="womenBtn"  class="active" onclick="showProducts('Women')">Women</button>
+      <button id="kidsBtn" class="active" class="tab-btn" onclick="showProducts('Kids')">Kids</button>
+    </div>
+    <div id="products"></div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
